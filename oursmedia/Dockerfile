@@ -1,5 +1,5 @@
 FROM fluent/fluentd:latest-onbuild
-MAINTAINER your_name <...>
+MAINTAINER oursmedia.cn
 USER fluent
 WORKDIR /home/fluent
 ENV PATH /home/fluent/.gem/ruby/2.3.0/bin:$PATH
